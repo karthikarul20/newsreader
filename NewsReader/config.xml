@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.mkuniquesolutions.newsreader" version="1.0.0">
+    <name>NewsReader</name>
+    <description>
+        Simple application allows you read news from various channels.
+    </description>
+    <author email="karthikarul20@gmail.com" href="http://cordova.apache.org/">
+        Karthik
+    </author>
+    <content src="index.html"/>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <access origin="*"/>
+    <preference name="target-device" value="handset"/>
+    <preference name="fullscreen" value="false"/>
+    <preference name="webviewbounce" value="false"/>
+    <preference name="prerendered-icon" value="true"/>
+    <preference name="stay-in-webview" value="false"/>
+    <preference name="ios-statusbarstyle" value="black-opaque"/>
+    <preference name="detect-data-types" value="true"/>
+    <preference name="exit-on-suspend" value="false"/>
+    <preference name="show-splash-screen-spinner" value="true"/>
+    <preference name="auto-hide-splash-screen" value="true"/>
+    <preference name="disable-cursor" value="false"/>
+    <preference name="android-minSdkVersion" value="15"/>
+    <preference name="android-installLocation" value="auto"/>
+    <preference name="SplashScreen" value="screen" />
+    <!-- statusbar settings passed to org.apache.cordova.statusbar cordova plugin mainly for iOS 7+-->
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="StatusBarBackgroundColor" value="#ffffff" />
+    <!-- End of statusbar settings -->
+    <icon src="icon.png"/>
+    
+</widget>
